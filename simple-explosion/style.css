@@ -1,0 +1,29 @@
+body, html {
+    background-color: black;
+    height: 100%;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+  }
+  #emitter {
+    background-color: #27e7f12f;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+  }
+  .dot {
+    background-color: #27e7f1;
+    border-radius: 50%;
+    position: absolute;
+  }
+  #instructions {
+    position: fixed;
+    top: 10px;
+    text-align: center;
+    color: #999;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
